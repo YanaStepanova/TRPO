@@ -26,3 +26,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Archive Production Artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: dev_artifact
+        path: ./bin/Debug/net6.0-windows
