@@ -32,4 +32,4 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: dev_artifact
-        path: ./bin
+        path: TRPO/bin/Debug
