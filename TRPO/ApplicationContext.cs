@@ -7,7 +7,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TRPO
 {
-    
+    /*!
+	\brief Класс - связь с БД
+	
+
+	Класс для взаимодействия с базой данных 
+*/
 
     public class ApplicationContext : DbContext
     {

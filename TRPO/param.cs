@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace TRPO
 {
+    /*!
+	\brief Класс - параметры 
+	
+
+	Класс, храняший данные о парметрах ТМЦ
+*/
     public class param
     {
         public int Id { get; set; }

@@ -35,7 +35,11 @@ namespace TRPO
         }
 
 
-
+        /*!
+    Срабатывает при изменении текстового поля
+    \ param объект,вызвавший событие
+    \return Новый текст
+    */
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 

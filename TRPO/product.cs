@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace TRPO
 {
+    /*!
+	\brief Класс - продукция
+	
+
+	Класс, описывающий информацию о ТМЦ
+*/
     public class product
     {
         public int Id { get; set; }
